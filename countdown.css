@@ -1,0 +1,56 @@
+
+:root {
+    --smaller: 0.75;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #566ee7;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+
+#countDownTimer {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.box {
+    background-color: #778CEB;
+    border-radius: 25px;
+    padding: 3rem;
+    box-shadow: rgba(6, 1, 34, 0.15) 0px 48px 100px 0px;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+#after{
+    display: none;
+}
