@@ -1,4 +1,4 @@
-const targetDate = new Date("sep 11, 2024 12:00:00").getTime();
+const targetDate = new Date("sep 11, 2024 10:00:00").getTime();
 
 let interval = setInterval(countDown, 1000);
 
